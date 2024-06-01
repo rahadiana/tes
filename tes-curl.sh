@@ -1,4 +1,4 @@
-curl --location 'https://api.aliprice.com/v2/Item/searchImageV2' \
+curl -Ss 'https://api.aliprice.com/v2/Item/searchImageV2' \
 --header 'Host: api.aliprice.com' \
 --header 'version: 7.0.6' \
 --header 'language: en' \
