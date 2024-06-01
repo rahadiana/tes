@@ -1,4 +1,4 @@
-curl -Ss 'https://api.aliprice.com/v2/Item/searchImageV2' \
+curl --location 'https://api.aliprice.com/v2/Item/searchImageV2' \
 --header 'Host: api.aliprice.com' \
 --header 'version: 7.0.6' \
 --header 'language: en' \
@@ -6,7 +6,6 @@ curl -Ss 'https://api.aliprice.com/v2/Item/searchImageV2' \
 --header 'whichapp: Android_Assistant' \
 --header 'currency: IDR' \
 --header 'content-type: application/json; charset=utf-8' \
---header 'content-length: 274' \
 --header 'accept-encoding: gzip' \
 --header 'cookie: PHPSESSID=6ie13j44ccpblpqaansisd6vhl; country_code=ID; cookie_id=dZnk9gupWZEiw61b1716903339; language=english; cookie_id=euz9rLeVZ5YayISA1716676053; country_code=ID; language=english' \
 --header 'user-agent: okhttp/3.12.0' \
